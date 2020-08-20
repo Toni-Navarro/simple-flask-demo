@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "irene-faab",
+  "private_key_id": "be926f8ee95d3885556cc2dc819606165452d4c1",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDnSBWAtPRMlWx7\n1XB/NQXjdnGOF5EnAf6bkS+r7AF4vjftj+G6W2T9kHX25Ln8piaDMIrT0Qf5xKI6\nUccf4mXEqu3YAnEs8E71/e4wKL6eon3iI2GTbnwd9sQHpmepV0uiX6Xr8qMUweyP\nA6blzR4Hvcf9Aw5MgKBC/29DGD373yopGAjpsA1qv+pOyEB3CnlSU5BUWpEBzKw6\nrWemT9o1wxk+L+YKSoiQmzqrwrpXBz1rJxnyXRNxtg40zjUdJG3f/IISOkmJWzyN\nFWyWVx4yjPi5LJnLEgQdlVSQHyXK8kei0uj/lHjjoH1awlz7j4ZiEIwPAss2Aqsg\nwYHo/GtfAgMBAAECggEAKy9FfJPNLeOUrwaqi8YNxGwgReTWoI75yHhyi0p09+Ok\ns8Hy5wYbtFDeBeytYaRwenx835IfSB7UH8mXQbfXQsKbyIKkOTzhsYLpj6p79Ujn\n8mqi1JGDsWCbN8Z1gqQfJkFvzL+wfba8AfQvnKcRHWbtSavhZp15zyi80K1dHYMy\nCzBXzCJnwe57GdOdsQS3FaITilkE3c1I8jW07ZuxF8piWoYdm6l5f1W9mf/vUdcm\nkWbLcrNggauezbvdI+aksJ+L2yNBVbiHuLwSjXG63iDaiBIJxBMk4osi9BmahSmF\nWAEgzzY0Mpk8LZiXFCqRDXITv5YSlWt8y7BEvEv3kQKBgQD4qUFPMRtg4N3GXfXk\nhtQb+Cqo2YNPKujFmxofjDxPcQclEkA2xX1A3yaa6tv9TB+Wf8PdbmDKAF6JU0g3\nEIQhYUXmx8eKdmedO9zVCcQDDityaqW2Uxa9muYEbUCPFz2bTqKleq78vClvTgFL\nvUf0H1hZn+L5bA0htKe6YDk61wKBgQDuG4S9WeRRvPHJuf7zODtiIrfOY0CLOyhL\nTT2nDUf5Z7aTBTQHLg9Xs3rWsf60zgRzVvjxtzOjJbvXnN7Sb4qM5w7hMRHa8K/v\ntTlGvqFzYuVu8MWRmxEIgnmkdd54mk7NZIRt8Cdf+pUPHsrNUhPUyVaJoufKr8lZ\nUrkj7T+KuQKBgQCMi43gZs8kuLRhFGaRHivxCxmBij+PlZ8vYXUoc6j69dWl/GTT\nEFi1O+ukEC77QfVwqRJZq7OFOSQ11h6xEOK9wy8xO6Xq+vWhh15QA08Isw+XgfPb\n06a80DpGMkIVHnuxtoZzpZ4WN3vr71kIKBntP3I+ZgJyG8JoVKWg0BZIzQKBgBSM\nm3AcCfBj9hoKy04CVF2r0WEmf7OEb33QNLnuE4Aay0707ACSoRBYlQliYzEHdqrd\nnq59uR8jaoq5JyHSLorqhgY5TekvTH/LjB3m5dgneNWSQfrG/zlUyVrAMWsHJjXj\nruouB7fo0GR1q9r8cmmy1p0aShbcBOyIjyHin9FBAoGBAOBvc2RTQ/u/IhcSkWEZ\nVkzQzcZ4cgVEgIXPokGP+b1H2tskiJpcVD0lmkQ9HOcSovadIloBIWZ//XkPTT/X\n7CyxeKtJmylyzBj4OZcygvexVyyh4gn1c0vBN+37Esxzu7wF3mtGwm+vhqVpctPN\nKyI84OMNJxGXxp6COCxK+oUa\n-----END PRIVATE KEY-----\n",
+  "client_email": "dialogflow-toukgt@irene-faab.iam.gserviceaccount.com",
+  "client_id": "104239459953478179029",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/dialogflow-toukgt%40irene-faab.iam.gserviceaccount.com"
+}
