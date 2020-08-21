@@ -20,7 +20,7 @@ def webhook():
     
     print(request.form.get('app'))
     print(request.form.get('sender'))
-    print(request.form.get('message')
+    print(request.form.get('message'))
           
     respuesta = str({'reply': 'Vete a la mierda. Desde el gateway'})
     
