@@ -13,20 +13,6 @@ app = Flask(__name__)
 def index():
     return 'Probando, probando!'
 
-'''
-# function for responses
-def results():
-    # build a request object
-    req = request.get_json(force=True)
-
-    # fetch action from json
-    action = req.get('queryResult').get('action')
-
-    # return a fulfillment response
-    return {'fulfillmentText': 'Vete a la mierda. Desde el gateway'}
-'''
-
-
 # create a route for webhook
 @app.route('/webhook', methods=['POST'])
 def webhook():
@@ -34,13 +20,8 @@ def webhook():
     
     print(request.form.get('app'))
     print(request.form.get('sender'))
-    print(request.form.get('message'))
-#    app = request.json['app']
-#    sender = request.json['sender']
-#    message = request.json['message']
-    
-#    print('hola carapolla server')
-    
+    print(request.form.get('message')
+          
     respuesta = str({'reply': 'Vete a la mierda. Desde el gateway'})
     
     # return response
@@ -87,7 +68,8 @@ def detect_intent_text():
     print('Fulfillment text: {}\n'.format(
        response.query_result.fulfillment_text))
     
-    return {'reply': response.query_result.fulfillment_text}
+    respuesta = str({'reply': response.query_result.fulfillment_text})
+    return respuesta
 
 # run the app
 if __name__ == '__main__':
