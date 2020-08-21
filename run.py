@@ -56,7 +56,7 @@ def detect_intent_text():
     import dialogflow_v2 as dialogflow
     
     import os
-    os.environ["GOOGLE_APPLICATION_CREDENTIALS"]="D:\irene-faab-be926f8ee95d.json"
+    os.environ["GOOGLE_APPLICATION_CREDENTIALS"]=".\irene-faab-be926f8ee95d.json"
     
     project_id = 'irene-faab'
     session_id = 123456789
