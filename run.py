@@ -28,21 +28,23 @@ def results():
 
 
 # create a route for webhook
-@app.route('/webhook', methods=['POST', 'GET'])
+@app.route('/webhook', methods=['POST'])
 def webhook():
     
     
-#    print(request.form.get('app'))
-#    print(request.form.get('sender'))
-#    print(request.form.get('message'))
+    print(request.form.get('app'))
+    print(request.form.get('sender'))
+    print(request.form.get('message'))
 #    app = request.json['app']
 #    sender = request.json['sender']
 #    message = request.json['message']
     
 #    print('hola carapolla server')
     
+    respuesta = str({'reply': 'Vete a la mierda. Desde el gateway'})
+    
     # return response
-    return {'reply': 'Vete a la mierda. Desde el gateway'}
+    return respuesta
 
 # create a route for webhook
 @app.route('/detect_intent_text', methods=['POST'])
