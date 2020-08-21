@@ -42,7 +42,7 @@ def webhook():
 #    print('hola carapolla server')
     
     # return response
-    return '{'reply': 'Vete a la mierda. Desde el gateway'}'
+    return {'reply': 'Vete a la mierda. Desde el gateway'}
 
 # create a route for webhook
 @app.route('/detect_intent_text', methods=['POST'])
