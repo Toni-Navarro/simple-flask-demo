@@ -68,8 +68,8 @@ def detect_intent_text():
     print('Fulfillment text: {}\n'.format(
        response.query_result.fulfillment_text))
     
-    respuesta = str({'reply': response.query_result.fulfillment_text})
-    return respuesta
+    respuesta2 = str({'reply': response.query_result.fulfillment_text})
+    return respuesta2
 
 # run the app
 if __name__ == '__main__':
